@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6E3ABA620F4D2FF0041D58A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3ABA520F4D2FF0041D58A /* AppDelegate.swift */; };
+		D6E3ABAD20F4D3000041D58A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E3ABAC20F4D3000041D58A /* Assets.xcassets */; };
+		D6E3ABB020F4D3000041D58A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E3ABAE20F4D3000041D58A /* LaunchScreen.storyboard */; };
+		D6E3ABB520F4D3000041D58A /* HeartRateGlitches WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D6E3ABB420F4D3000041D58A /* HeartRateGlitches WatchKit App.app */; };
+		D6E3ABBB20F4D3000041D58A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E3ABB920F4D3000041D58A /* Interface.storyboard */; };
+		D6E3ABBD20F4D3010041D58A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E3ABBC20F4D3010041D58A /* Assets.xcassets */; };
+		D6E3ABC420F4D3010041D58A /* HeartRateGlitches WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D6E3ABC320F4D3010041D58A /* HeartRateGlitches WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D6E3ABC920F4D3010041D58A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3ABC820F4D3010041D58A /* InterfaceController.swift */; };
+		D6E3ABCB20F4D3010041D58A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3ABCA20F4D3010041D58A /* ExtensionDelegate.swift */; };
+		D6E3ABCD20F4D3020041D58A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E3ABCC20F4D3020041D58A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6E3ABB620F4D3000041D58A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E3AB9A20F4D2FF0041D58A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E3ABB320F4D3000041D58A;
+			remoteInfo = "HeartRateGlitches WatchKit App";
+		};
+		D6E3ABC520F4D3010041D58A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E3AB9A20F4D2FF0041D58A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E3ABC220F4D3010041D58A;
+			remoteInfo = "HeartRateGlitches WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D6E3ABD420F4D3020041D58A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D6E3ABC420F4D3010041D58A /* HeartRateGlitches WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E3ABD820F4D3020041D58A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D6E3ABB520F4D3000041D58A /* HeartRateGlitches WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D6E3ABA220F4D2FF0041D58A /* HeartRateGlitches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateGlitches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E3ABA520F4D2FF0041D58A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6E3ABAC20F4D3000041D58A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6E3ABAF20F4D3000041D58A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6E3ABB120F4D3000041D58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E3ABB420F4D3000041D58A /* HeartRateGlitches WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeartRateGlitches WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E3ABBA20F4D3000041D58A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D6E3ABBC20F4D3010041D58A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6E3ABBE20F4D3010041D58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E3ABC320F4D3010041D58A /* HeartRateGlitches WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HeartRateGlitches WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E3ABC820F4D3010041D58A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D6E3ABCA20F4D3010041D58A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D6E3ABCC20F4D3020041D58A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6E3ABCE20F4D3020041D58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E3AB9F20F4D2FF0041D58A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E3ABC020F4D3010041D58A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6E3AB9920F4D2FF0041D58A = {
+			isa = PBXGroup;
+			children = (
+				D6E3ABA420F4D2FF0041D58A /* HeartRateGlitches */,
+				D6E3ABB820F4D3000041D58A /* HeartRateGlitches WatchKit App */,
+				D6E3ABC720F4D3010041D58A /* HeartRateGlitches WatchKit Extension */,
+				D6E3ABA320F4D2FF0041D58A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E3ABA320F4D2FF0041D58A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3ABA220F4D2FF0041D58A /* HeartRateGlitches.app */,
+				D6E3ABB420F4D3000041D58A /* HeartRateGlitches WatchKit App.app */,
+				D6E3ABC320F4D3010041D58A /* HeartRateGlitches WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6E3ABA420F4D2FF0041D58A /* HeartRateGlitches */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3ABAC20F4D3000041D58A /* Assets.xcassets */,
+				D6E3ABAE20F4D3000041D58A /* LaunchScreen.storyboard */,
+				D6E3ABB120F4D3000041D58A /* Info.plist */,
+				D6E3ABA520F4D2FF0041D58A /* AppDelegate.swift */,
+			);
+			path = HeartRateGlitches;
+			sourceTree = "<group>";
+		};
+		D6E3ABB820F4D3000041D58A /* HeartRateGlitches WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3ABBC20F4D3010041D58A /* Assets.xcassets */,
+				D6E3ABB920F4D3000041D58A /* Interface.storyboard */,
+				D6E3ABBE20F4D3010041D58A /* Info.plist */,
+			);
+			path = "HeartRateGlitches WatchKit App";
+			sourceTree = "<group>";
+		};
+		D6E3ABC720F4D3010041D58A /* HeartRateGlitches WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3ABCC20F4D3020041D58A /* Assets.xcassets */,
+				D6E3ABCE20F4D3020041D58A /* Info.plist */,
+				D6E3ABC820F4D3010041D58A /* InterfaceController.swift */,
+				D6E3ABCA20F4D3010041D58A /* ExtensionDelegate.swift */,
+			);
+			path = "HeartRateGlitches WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6E3ABA120F4D2FF0041D58A /* HeartRateGlitches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E3ABD920F4D3020041D58A /* Build configuration list for PBXNativeTarget "HeartRateGlitches" */;
+			buildPhases = (
+				D6E3AB9E20F4D2FF0041D58A /* Sources */,
+				D6E3AB9F20F4D2FF0041D58A /* Frameworks */,
+				D6E3ABA020F4D2FF0041D58A /* Resources */,
+				D6E3ABD820F4D3020041D58A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E3ABB720F4D3000041D58A /* PBXTargetDependency */,
+			);
+			name = HeartRateGlitches;
+			productName = HeartRateGlitches;
+			productReference = D6E3ABA220F4D2FF0041D58A /* HeartRateGlitches.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6E3ABB320F4D3000041D58A /* HeartRateGlitches WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E3ABD520F4D3020041D58A /* Build configuration list for PBXNativeTarget "HeartRateGlitches WatchKit App" */;
+			buildPhases = (
+				D6E3ABB220F4D3000041D58A /* Resources */,
+				D6E3ABD420F4D3020041D58A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E3ABC620F4D3010041D58A /* PBXTargetDependency */,
+			);
+			name = "HeartRateGlitches WatchKit App";
+			productName = "HeartRateGlitches WatchKit App";
+			productReference = D6E3ABB420F4D3000041D58A /* HeartRateGlitches WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D6E3ABC220F4D3010041D58A /* HeartRateGlitches WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E3ABD120F4D3020041D58A /* Build configuration list for PBXNativeTarget "HeartRateGlitches WatchKit Extension" */;
+			buildPhases = (
+				D6E3ABBF20F4D3010041D58A /* Sources */,
+				D6E3ABC020F4D3010041D58A /* Frameworks */,
+				D6E3ABC120F4D3010041D58A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeartRateGlitches WatchKit Extension";
+			productName = "HeartRateGlitches WatchKit Extension";
+			productReference = D6E3ABC320F4D3010041D58A /* HeartRateGlitches WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6E3AB9A20F4D2FF0041D58A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Analog Barim";
+				TargetAttributes = {
+					D6E3ABA120F4D2FF0041D58A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D6E3ABB320F4D3000041D58A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D6E3ABC220F4D3010041D58A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D6E3AB9D20F4D2FF0041D58A /* Build configuration list for PBXProject "HeartRateGlitches" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6E3AB9920F4D2FF0041D58A;
+			productRefGroup = D6E3ABA320F4D2FF0041D58A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6E3ABA120F4D2FF0041D58A /* HeartRateGlitches */,
+				D6E3ABB320F4D3000041D58A /* HeartRateGlitches WatchKit App */,
+				D6E3ABC220F4D3010041D58A /* HeartRateGlitches WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6E3ABA020F4D2FF0041D58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E3ABB020F4D3000041D58A /* LaunchScreen.storyboard in Resources */,
+				D6E3ABAD20F4D3000041D58A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E3ABB220F4D3000041D58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E3ABBD20F4D3010041D58A /* Assets.xcassets in Resources */,
+				D6E3ABBB20F4D3000041D58A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E3ABC120F4D3010041D58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E3ABCD20F4D3020041D58A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6E3AB9E20F4D2FF0041D58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E3ABA620F4D2FF0041D58A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E3ABBF20F4D3010041D58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E3ABCB20F4D3010041D58A /* ExtensionDelegate.swift in Sources */,
+				D6E3ABC920F4D3010041D58A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6E3ABB720F4D3000041D58A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E3ABB320F4D3000041D58A /* HeartRateGlitches WatchKit App */;
+			targetProxy = D6E3ABB620F4D3000041D58A /* PBXContainerItemProxy */;
+		};
+		D6E3ABC620F4D3010041D58A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E3ABC220F4D3010041D58A /* HeartRateGlitches WatchKit Extension */;
+			targetProxy = D6E3ABC520F4D3010041D58A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6E3ABAE20F4D3000041D58A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E3ABAF20F4D3000041D58A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D6E3ABB920F4D3000041D58A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E3ABBA20F4D3000041D58A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6E3ABCF20F4D3020041D58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6E3ABD020F4D3020041D58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6E3ABD220F4D3020041D58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8VY3872TH;
+				INFOPLIST_FILE = "HeartRateGlitches WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AnalogBarim.HeartRateGlitches.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		D6E3ABD320F4D3020041D58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8VY3872TH;
+				INFOPLIST_FILE = "HeartRateGlitches WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AnalogBarim.HeartRateGlitches.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		D6E3ABD620F4D3020041D58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8VY3872TH;
+				IBSC_MODULE = HeartRateGlitches_WatchKit_Extension;
+				INFOPLIST_FILE = "HeartRateGlitches WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = AnalogBarim.HeartRateGlitches.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		D6E3ABD720F4D3020041D58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8VY3872TH;
+				IBSC_MODULE = HeartRateGlitches_WatchKit_Extension;
+				INFOPLIST_FILE = "HeartRateGlitches WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = AnalogBarim.HeartRateGlitches.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		D6E3ABDA20F4D3020041D58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8VY3872TH;
+				INFOPLIST_FILE = HeartRateGlitches/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AnalogBarim.HeartRateGlitches;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6E3ABDB20F4D3020041D58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8VY3872TH;
+				INFOPLIST_FILE = HeartRateGlitches/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AnalogBarim.HeartRateGlitches;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E3AB9D20F4D2FF0041D58A /* Build configuration list for PBXProject "HeartRateGlitches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E3ABCF20F4D3020041D58A /* Debug */,
+				D6E3ABD020F4D3020041D58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E3ABD120F4D3020041D58A /* Build configuration list for PBXNativeTarget "HeartRateGlitches WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E3ABD220F4D3020041D58A /* Debug */,
+				D6E3ABD320F4D3020041D58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E3ABD520F4D3020041D58A /* Build configuration list for PBXNativeTarget "HeartRateGlitches WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E3ABD620F4D3020041D58A /* Debug */,
+				D6E3ABD720F4D3020041D58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E3ABD920F4D3020041D58A /* Build configuration list for PBXNativeTarget "HeartRateGlitches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E3ABDA20F4D3020041D58A /* Debug */,
+				D6E3ABDB20F4D3020041D58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6E3AB9A20F4D2FF0041D58A /* Project object */;
+}
