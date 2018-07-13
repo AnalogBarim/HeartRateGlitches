@@ -18,6 +18,8 @@
 		D6E3ABCB20F4D3010041D58A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3ABCA20F4D3010041D58A /* ExtensionDelegate.swift */; };
 		D6E3ABCD20F4D3020041D58A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E3ABCC20F4D3020041D58A /* Assets.xcassets */; };
 		D6E3ABDF20F4E17E0041D58A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E3ABDE20F4E17E0041D58A /* HealthKit.framework */; };
+		D6E3ABE120F4E39D0041D58A /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3ABE020F4E39D0041D58A /* HealthKitManager.swift */; };
+		D6E3ABE320F4E3C60041D58A /* HeartRateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3ABE220F4E3C60041D58A /* HeartRateModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		D6E3ABCE20F4D3020041D58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6E3ABDC20F4E17E0041D58A /* HeartRateGlitches.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeartRateGlitches.entitlements; sourceTree = "<group>"; };
 		D6E3ABDE20F4E17E0041D58A /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		D6E3ABE020F4E39D0041D58A /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		D6E3ABE220F4E3C60041D58A /* HeartRateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 				D6E3ABB120F4D3000041D58A /* Info.plist */,
 				D6E3ABDC20F4E17E0041D58A /* HeartRateGlitches.entitlements */,
 				D6E3ABA520F4D2FF0041D58A /* AppDelegate.swift */,
+				D6E3ABE020F4E39D0041D58A /* HealthKitManager.swift */,
+				D6E3ABE220F4E3C60041D58A /* HeartRateModel.swift */,
 			);
 			path = HeartRateGlitches;
 			sourceTree = "<group>";
@@ -298,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E3ABE120F4E39D0041D58A /* HealthKitManager.swift in Sources */,
 				D6E3ABA620F4D2FF0041D58A /* AppDelegate.swift in Sources */,
+				D6E3ABE320F4E3C60041D58A /* HeartRateModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
