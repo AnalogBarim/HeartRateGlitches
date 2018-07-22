@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D657F0B320FEDC9700647D2C /* HeartRateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657F0B220FEDC9700647D2C /* HeartRateTableViewController.swift */; };
+		D657F0B520FEDCB600647D2C /* GlitchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657F0B420FEDCB600647D2C /* GlitchesTableViewController.swift */; };
 		D6E3ABA620F4D2FF0041D58A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3ABA520F4D2FF0041D58A /* AppDelegate.swift */; };
 		D6E3ABAD20F4D3000041D58A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E3ABAC20F4D3000041D58A /* Assets.xcassets */; };
 		D6E3ABB020F4D3000041D58A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E3ABAE20F4D3000041D58A /* LaunchScreen.storyboard */; };
@@ -65,6 +67,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D657F0B220FEDC9700647D2C /* HeartRateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateTableViewController.swift; sourceTree = "<group>"; };
+		D657F0B420FEDCB600647D2C /* GlitchesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitchesTableViewController.swift; sourceTree = "<group>"; };
 		D6E3ABA220F4D2FF0041D58A /* HeartRateGlitches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateGlitches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E3ABA520F4D2FF0041D58A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6E3ABAC20F4D3000041D58A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -135,6 +139,8 @@
 				D6E3ABA520F4D2FF0041D58A /* AppDelegate.swift */,
 				D6E3ABE020F4E39D0041D58A /* HealthKitManager.swift */,
 				D6E3ABE220F4E3C60041D58A /* HeartRateModel.swift */,
+				D657F0B220FEDC9700647D2C /* HeartRateTableViewController.swift */,
+				D657F0B420FEDCB600647D2C /* GlitchesTableViewController.swift */,
 			);
 			path = HeartRateGlitches;
 			sourceTree = "<group>";
@@ -304,6 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D657F0B520FEDCB600647D2C /* GlitchesTableViewController.swift in Sources */,
+				D657F0B320FEDC9700647D2C /* HeartRateTableViewController.swift in Sources */,
 				D6E3ABE120F4E39D0041D58A /* HealthKitManager.swift in Sources */,
 				D6E3ABA620F4D2FF0041D58A /* AppDelegate.swift in Sources */,
 				D6E3ABE320F4E3C60041D58A /* HeartRateModel.swift in Sources */,
